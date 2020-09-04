@@ -76,7 +76,7 @@ HEADER STYLE START
 BANNER STYLE START
 ================*/
 section.Banner-area{
-    background: url(https://i.imgur.com/l0hw4O8.jpg) no-repeat center;
+    background: url('img/slider-1.jpg') no-repeat center;
     background-attachment: fixed;
     /* background-position:center center;
     background-repeat: no-repeat; */
@@ -187,7 +187,7 @@ section.blog-area.clearfix {
     font-size: 30px;
 }
 .blog-left-notification ul li {
-    padding: 24px;
+    padding: 15px;
     border: 1px solid #ddd;
     background: #fafafa;
     font-size: 18px;
