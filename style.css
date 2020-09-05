@@ -5,6 +5,11 @@ Common typhography
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+body{
+    width:100%;
+    overflow-x: hidden;
 }
 .clearfix::after{
     content:"";
@@ -15,7 +20,7 @@ img{
     max-width: 100%;
 }
 .container{
-    width: 1170px;
+    width: 1270px;
     margin: auto;
 }
 .text-center{
@@ -32,7 +37,9 @@ HEADER STYLE START
 ================*/
 .header{
  background: #2189D4;
+ padding: 10px 0;
 }
+
 .header-left{
     float: left;
     width: 30%;
@@ -60,7 +67,6 @@ HEADER STYLE START
     padding: 0 30px;
     color: #fff;
     text-decoration: none;
-    
     line-height: 76px;
     font-size: 20px;
     transition: 0.3s ease-in-out;
@@ -76,10 +82,10 @@ HEADER STYLE START
 BANNER STYLE START
 ================*/
 section.Banner-area{
-    background: url('img/slider-1.jpg') no-repeat center;
+    background: url('./img/slider-1.jpg'); /* https://i.imgur.com/nqmsglO.jpg */
     background-attachment: fixed;
-    /* background-position:center center;
-    background-repeat: no-repeat; */
+     background-position:center center;
+    background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 0;
     max-width: 100%;
