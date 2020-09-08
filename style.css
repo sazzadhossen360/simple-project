@@ -75,7 +75,8 @@ HEADER STYLE START
 }
 .header-right ul li a:hover{
     background: purple;
-   transform:  rotate(360deg);
+   /* transform:  rotate(360deg); */
+   border:none;
    
 }
 /*=============== 
